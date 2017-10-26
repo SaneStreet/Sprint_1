@@ -9,12 +9,20 @@ public class Apple extends Fruit {
         //Banana object
         Banana banana = new Banana();
         //Nedarver metoden help fra Fruit
+        //Overridden - Se Banana
         banana.help();
 
         //Apple object
         Apple apple = new Apple();
         //Nedarver metoden help fra Fruit
+        //Not overridden.
         apple.help();
+
+        //Kiwi object
+        Kiwi kiwi = new Kiwi();
+        //Nedarver metoden help fra Fruit
+        //Overridden - Se Kiwi
+        kiwi.help();
     }
 
 }
